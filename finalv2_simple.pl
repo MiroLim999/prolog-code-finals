@@ -66,10 +66,18 @@ goal_choice(5, games).
 ask_languages :-
     nl,
     writeln('Which languages do you already know?'),
-    writeln('1 Python   2 Java   3 JavaScript   4 C'),
-    writeln('5 C++      6 Ruby   7 Swift        8 Kotlin'),
-    writeln('9 R       10 MATLAB 11 Haskell    12 Elixir'),
-    nl,
+    writeln('1. Python'),
+    writeln('2. Java'),
+    writeln('3. JavaScript'),
+    writeln('4. C'),
+    writeln('5. C++'),
+    writeln('6. Ruby'),
+    writeln('7. Swift'),
+    writeln('8. Kotlin'),
+    writeln('9. R'),
+    writeln('10. MATLAB'),
+    writeln('11. Haskell'),
+    writeln('12. Elixir'),
     writeln('Enter 0 when finished.'),
     read_languages.
 
